@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar {
+    display: flex;
+    height: 70px;
+    background-color: #182458;
+    color: rgb(250, 249, 249);
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.heading {
+    text-shadow: #988a08;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 500px;
+    color: #988a08;
+    font-weight: 790;
+    font-family: initial;
+}
+
+.magni {
+    font-size: 15px;
+    padding-left: 180px;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+.account {
+    font-size: 15px;
+    padding-left: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.wish {
+    font-size: 15px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.bag {
+    font-size: 15px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.below-header {
+    
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  /* margin-bottom: 10px; */
+  background-color: #e2dfdf;
+  padding: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.picture {
+    background-image: url("astrology-design.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-section {
+    background-image: url("image_1.png");
+    height: 450px;
+    width: 1537px;
+    padding-right: 100px;
+}
+
+
+.text {
+    
+    color: #080a0b;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    margin-top: 20px;
+    background-color: #fdf8f8;
+}
+
+.below-text {
+    color: rgb(46, 45, 45);
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px
+   
+  
+}
+
+
+.container {
+    height: 530px;
+    width: 1100px;
+    margin-top: 70;
+    margin-left: 190px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+.container {
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 1100px;
+    height: 400px;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #f1ecec;
+
+
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="mobile"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 90px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.gender{
+    margin-top: 29px;
+    width: 323px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container  {
+    /* display: flex; */
+    margin-top: 5px;
+
+}
+.form3{
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.name.email.mobile{
+    width: 200px;
+}
+
+
+.gend{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type="submit"] {
+    background-color: #e9de0c;
+    color: rgb(1, 1, 1);
+    padding: 10px 195px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 1px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #11c814;
+}
+input[type="radio"]{
+    display: inline;
+}
+.sub{
+    margin-top: 29px;
+    padding:20px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.gem2 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 29px;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text1 {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5e5656;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.wrapper {
+    /* background-color: #eaecec; */
+    padding: 20px;
+    border: #b5b1b1;
+    margin-top: 15px;
+
+}
+.fig1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.fig2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fig_2{
+    margin:auto 25px;
+}
+.gemstone {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.gemstone img {
+    width: 130px;
+    height: auto;
+}
+
+.gemstone figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.newgemstone {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: space-evenly; */
+}
+.gemrecommend{
+    padding-bottom : 25px;
+}
+
+.newgemstone img {
+    width: 130px;
+    height: auto;
+}
+
+.newgemstone figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.gemstone:hover {
+    background-color: #dad9e1;
+
+}
+/* .second{
+    padding-top: 30px;
+} */
+
+.second1 {
+    color: #c5c5c8;
+    font-family:  "Arial", sans-serif;
+    font-size:xx-large;
+    font-weight: 150;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second2 {
+   
+    padding-top: 30px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #a6a8a9;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.second3{
+    padding-top: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #a8a8ab;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 15px;
+}
+.planet {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    color: #adafaf;
+}
+
+
+.planet img {
+    filter: invert(100);
+    /* mix-blend-mode: multiply; */
+    /* mix-blend-mode:var(#610404); */
+    mix-blend-mode: difference;
+    width: 130px;
+    height: auto;
+}
+.planet figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.planet:hover {
+    /* background-color: #dad9e1; */
+
+}
+.shopsection img{
+    width: 100px;
+    height: auto;
+}
+.secondpage{
+    /* padding-top: 30px; */
+    background-color: #0c194c;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 76, 76);
+   
+}
+/* .thirdpage{
+    color: #0f0f0f;
+    font-family:  "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 10;
+    /* padding-top: 40px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */
+.thirdheading{
+   
+    color: #141417;
+    font-family: "Arial", sans-serif;
+    font-size:medium;
+    font-weight: 150;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdpara {
+padding-top: 30px;
+font-family: "Arial", sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #5d5e5f;
+line-height: 1.5;
+text-align: justify;
+padding-left: 40px;
+padding-right: 40px;
+}
+.thirdpara2{
+    padding-top: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #5d5e5f;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 40px;
+    
+}
+.fourthpage{
+    background-color: rgb(252, 249, 249) ;
+}
+.box-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #eef0f1;
+    
+}
+.box{
+    display: flex;
+    border: 2px solid rgb(252, 249, 249);
+    height: 300px;
+    width: 27%;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid rgb(221, 220, 220);
+    
+}
+.shopsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(253, 244, 244);
+}
+
+.box {
+    height: 320px;
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+} 
+
+.box_p1{
+    display: flex;
+    justify-content: center;
+    line-height: 1.2rem;
+    background-color: #fcf4f4;
+    /* border: 2px solid black; */
+    
+} 
+.aries1,.tauras,.gemini{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(254, 242, 242);
+    /* padding-top: 30px; */
+}
+/* .aries1 div{
+    width: 250px;
+} */
+
+.shopsection p{
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+   
+    
+}
+.aqua2,.capri1,.sagi,.scorpio,.libro,.virgo,.leo1,.canu,.gem,.tau{
+    padding-top: 6px;
+}
+.ari{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+/* second last page styling start from here */
+.above{
+    /* background-color: rgb(250, 248, 248); */
+   
+}
+.abovefooter{
+   
+font-family: "Arial", sans-serif;
+font-size: 15px;
+font-weight: 50;
+margin-top: 30px;
+padding-top: 30px;
+/* background-color: rgb(254, 252, 252); */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.lastpara{
+    margin-top: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium ;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 1.3rem;
+}
+.belowlastpara{
+   
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+}
+.recentbox{
+    height: 40px;
+    width: 30px;
+    font-weight: 3;
+}
+
+.boxx {
+    /* font-family: "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #c41212;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+    height: 320px;
+    width: 23%;
+    font-size: 20px;
+    background-color: #faf4f4;
+    margin-top: 40px;
+    border-radius: 16px;
+    background-color: #f5f0f0;
+    color: #353232;
+    line-height: 1.6;
+    text-align: center
+    
+} 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* .container3{
+  max-width: 1170px;
+  margin:auto;
+  /* display: flex;
+ justify-content: center;
+ align-items: center; */
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  /* background-color: #fbf5f5; */
+    padding: 20px 0;
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black;; */
+    background-color: rgb(229, 229, 229);
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fffefe;
+  text-decoration: none;
+  font-weight: 300;
+  color: #090606;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #e00909;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #01327a;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #0b0c0c;
+  background-color: #e40d0d;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.col{
+    height: 20px;
+    width: auto;
+    /* background-color: #01327a; */
+}
+.shopsection2{
+    background-color: white;
+}
+
+.container1 {
+    height: 530px;
+    width: 1100px;
+    /* margin-top: 70; */
+    /* margin-left: 190px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+.container1 {
+    font-family: Arial, sans-serif;
+
+}
+
+.container1 {
+    width: 1100px;
+    height: 400px;
+    /* margin-left: 200px; */
+    padding: 20px;
+    background-color: #f1ecec;
+
+
+}
+/* .footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+.footer-color{
+    background-color: #0c194c;
+    height: 80px;
+    width: 100rem;
+    
+}
+.sequel{
+    margin-left: 120px;
+    padding-top: 22px;
+    /* height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.dtdc{
+    margin-left: 45px;
+    padding-top: 22px;
+}
+.cod{
+    margin-left: 700px;
+    padding-top: 27px;
+}
+.visa{
+    margin-left: 40px;
+    border: 2px solid rgb(145, 141, 141);
+    border-radius: 3px;
+}
+.netbanking{
+    margin-left: 40px;
+    height: 50px;
+    /* border: 2px solid rgb(145, 141, 141); */
+    /* border-radius: 3px; */
+}
+.netbanking{
+    border: 3px solid rgb(145, 141, 141);
+    border-radius: 4px;
+}
